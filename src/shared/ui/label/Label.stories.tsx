@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { Label } from '@/shared/ui/label/Label';
-import { TextField } from '@/shared/ui/textField/TextField';
+import { Label } from '@/shared/UI/label/Label';
+import { TextField } from '@/shared/UI/textField/TextField';
 
 const meta: Meta<typeof Label> = {
 	title: 'Components/Label',

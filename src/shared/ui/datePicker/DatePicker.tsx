@@ -2,7 +2,7 @@ import { ReactDatePickerCustomHeaderProps, registerLocale } from 'react-datepick
 import * as RDP from 'react-datepicker'
 import React, { ComponentProps, forwardRef, useEffect, useState } from 'react'
 import s from './DatePicker.module.scss'
-import { Label } from '@/shared/ui/label/Label';
+import { Label } from '@/shared/UI/label/Label';
 import { LuCalendarDays } from "react-icons/lu";
 import { MdOutlineKeyboardArrowLeft, MdOutlineKeyboardArrowRight } from "react-icons/md";
 import clsx from 'clsx'

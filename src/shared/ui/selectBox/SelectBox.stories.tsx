@@ -1,4 +1,4 @@
-import { SelectBox, SelectItem } from "@/shared/ui/selectBox/SelectBox";
+import { SelectBox, SelectItem } from "@/shared/UI/selectBox/SelectBox";
 import { Meta, StoryObj } from "@storybook/react";
 import { action } from "@storybook/addon-actions";
 

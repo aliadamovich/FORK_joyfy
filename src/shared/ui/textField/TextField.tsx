@@ -1,6 +1,6 @@
 import React, { ComponentProps, KeyboardEvent, MouseEvent, ReactNode, useId, useState } from 'react'
 import s from './TextField.module.scss'
-import { Label } from '@/shared/ui/label/Label'
+import { Label } from '@/shared/UI/label/Label'
 import { FiSearch } from "react-icons/fi";
 import { FiEye, FiEyeOff } from "react-icons/fi";
 import clsx from 'clsx';

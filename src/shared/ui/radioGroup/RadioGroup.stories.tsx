@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { RadioGroup } from '@/shared/ui/radioGroup/RadioGroup'
+import { RadioGroup } from '@/shared/UI/radioGroup/RadioGroup'
 
 const meta = {
   component: RadioGroup,
