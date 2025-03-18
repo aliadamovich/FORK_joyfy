@@ -1,15 +1,6 @@
-import { TextField } from "../../textField/TextField"
-import { ComponentProps, ReactNode, KeyboardEvent } from "react"
+import { TextField, TextFieldProps } from "../../textField/TextField"
 import { Control, FieldValues, useController, UseControllerProps } from "react-hook-form"
 
-type TextFieldProps = ComponentProps<'input'> & {
-	errorMessage?: string
-	label?: ReactNode
-	search?: boolean
-	startIcon?: ReactNode
-	onEnter?: (e: KeyboardEvent<HTMLInputElement>) => void
-	onShowPasswordClick?: () => void
-}
 
 type Propss<T extends FieldValues> = TextFieldProps
 	& Omit<UseControllerProps<T>, 'control' | 'rules' | 'shouldUnregister' | 'defaultValue'>
